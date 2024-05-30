@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.container div {
+    padding: 20px;
+    width: 90px;
+    text-align: center;
+    font-size: 14sp;
+    border: 2px Solid black;
+}
+.container div:hover {
+    background-color: #ad6161;
+    color: rgb(255, 255, 255);
+  }
+.logo {
+    margin-right: auto;
+}
+
+.header {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.content {
+    flex-direction: row;
+    display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.content div {
+    display: flex; 
+    flex: 1; 
+    align-content: center; 
+    justify-content: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+article.form table .table-row{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-bottom: 10px;
+}
+article.form table .table-row td.label{
+    width: 150px;
+}
+article.form table .table-row td.input-table{
+    margin-left: 5px;
+}
+article.form table .table-row td.input-table .input-text{
+    width: 400px;
+}
+article.form input#btn-submit{
+    width: 100%;
+}
+
+.table_person {
+    border: 2px solid rgb(164, 157, 157);
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: center;
+    padding: 10px;
+}
+#first-child {
+    background-color: #ad6161;
+}
+
+footer > p{
+    text-align: end;
+    margin-left: 90px;
+    margin-right: 90px;
+}

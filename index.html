@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Web ZRomli</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <nav class="container">
+            <img src="revou.jpeg" class="logo" width="50" height="50">
+            <div class="home">Home</div>
+            <div class="profil">Profil</div>
+            <div class="skpd">SKPD</div>
+            <div class="login">Login</div>
+        </nav>
+        <hr>
+        <header class="header">
+            <h1>Form Data Diri</h1>
+            <p>Ini Adalah Website Pengisian Data Diri Peserta Pelatihan</p>
+        </header>
+
+        <main class="content">
+
+            <div>
+                <article class="form">
+                    <table>
+                        <tr class="table-row">
+                            <td class="label">NAMA</td>
+                            <td>:</td>
+                            <td class="input-table"><input id="name" placeholder="Ketik Nama Disini" type="text" class="input-text"></input></td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="label">TANGGAL LAHIR</td>
+                            <td>:</td>
+                            <td class="input-table"><input id="TANGGAL LAHIR" type="date" class="input-text"></input></td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="label">JENIS KELAMIN</td>
+                            <td>:</td>
+                            <td class="input-table"><input id="laki-laki" type="radio" value="laki-laki" name="JENIS KELAMIN"></input>
+                            <label for="laki-laki">Laki-Laki</label>
+                            <input id="perempuan" type="radio" value="perempuan" name="JENIS KELAMIN"></input>
+                            <label for="perempuan">Perempuan</label>
+                            </td>
+                        </tr>
+        
+                        <tr class="table-row"> 
+                            <td class="label">PESAN</td>
+                            <td>:</td>
+                            <td class="input-table"><textarea placeholder="Ketik Pesan Disini" rows="10" class="input-text" ></textarea></td>
+                        </tr>
+                    </table>
+                    <input onclick="klik()" type="submit" id="btn-submit" name="submit" align-items: center; >
+                </article>
+            </div>
+
+            <div>
+                <table class="table_person">
+                    <tr id="first-child">
+                        <th class="table_person">Nama</th>
+                        <th class="table_person">Tanggal Lahir</th>
+                        <th class="table_person">Jenis Kelamin</th>
+                        <th class="table_person">Pesan</th>
+                        <th class="table_person">Profil</th>
+                        <th class="table_person">Delete</th>
+                    </tr>
+                    <tr>
+                        <td class="table_person">Ada Lovelace</td>
+                        <td class="table_person">December 10, 1815</td>
+                        <td class="table_person">Perempuan</td>
+                        <td class="table_person">Belajar Buat Website</td>
+                        <td class="table_person"> <a href="https://jupendik.or.id/index.php/jupendik/article/view/91"> Klik disini </a></td>
+                        <td class="table_person"> <img src="trash.png" alt="hapus" width="20" height="20"> </td>
+                    </tr>
+                    <tr>
+                        <td class="table_person">Grace Hopper</td>
+                        <td class="table_person">December 9, 1906</td>
+                        <td class="table_person">Perempuan</td>
+                        <td class="table_person">Hello World</td>
+                        <td class="table_person"> <a href="https://jupendik.or.id/index.php/jupendik/article/view/91"> Klik disini </a></td>
+                        <td class="table_person"> <img src="trash.png" alt="hapus" width="20" height="20"> </td>
+                    </tr>
+                    <tr>
+                        <td class="table_person">Margaret Hamilton</td>
+                        <td class="table_person">August 17, 1936</td>
+                        <td class="table_person">Perempuan</td>
+                        <td class="table_person">Test Dulu</td>
+                        <td class="table_person"> <a href="https://jupendik.or.id/index.php/jupendik/article/view/91"> Klik disini </a></td>
+                        <td class="table_person"> <img src="trash.png" alt="hapus" width="20" height="20"> </td>
+                    </tr>
+                    <tr class="table_person">
+                        <td class="table_person">Joan Clarke</td>
+                        <td class="table_person">June 24, 1917</td>
+                        <td class="table_person">Laki-Laki</td>
+                        <td class="table_person">Selalu Semangat</td>
+                        <td class="table_person"> <a href="https://jupendik.or.id/index.php/jupendik/article/view/91"> Klik disini </a></td>
+                        <td class="table_person"> <img src="trash.png" alt="hapus" width="20" height="20"> </td>
+                    </tr>
+        
+                </table>
+            </div>
+
+        </main>
+        <br>
+        <hr>
+        <footer class="footer">
+            <p>Created By Zulfikar Romli 2024</p>
+        </footer>
+        <script>
+            function klik() {
+                alert('Terima Kasih Telah Melakukan Pengisian Form Data Diri')
+            }
+        </script>
+    </body>
+</html>
